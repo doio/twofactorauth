@@ -35,6 +35,13 @@ websites:
       twitter: 1and1
       facebook: 1and1
 
+    - name: 20i
+      url: https://www.20i.com
+      img: 20i.png
+      tfa: Yes
+      software: Yes
+      doc: https://www.20i.com/support/my-services/two-factor-authentication-my20i
+
     - name: Above.com
       url: https://www.above.com
       img: above.png
@@ -114,11 +121,12 @@ websites:
       sms: Yes
       doc: https://my.domains4bitcoins.com/kb/answer/2692
 
-    - name: DomainsAtCost
-      url: https://www.domainsatcost.ca/
-      twitter: domainsatcost
-      facebook: domainsatcost
-      img: domainsatcost.png
+    - name: DomainTools
+      url: https://www.domaintools.com/
+      twitter: DomainTools
+      facebook: domaintoolsllc
+      email_address: memberservices@domaintools.com
+      img: domaintools.png
       tfa: No
 
     - name: Domeny.tv
@@ -169,11 +177,12 @@ websites:
       doc: http://help.eurodns.com/customer/en/portal/articles/1633106-how-do-i-activate-two-step-verification-on-my-account-
 
     - name: Fabulous
-      url: http://fabulous.com
+      url: https://fabulous.com
       img: fabulous.png
       tfa: Yes
-      hardware: yes
-      doc: http://fabulous.com/informationcenter/index.htm?formdata%5Bqid%5D=1194
+      hardware: Yes
+      software: Yes
+      doc: https://fabulous.com/knowledge/article/137
 
     - name: Fasthosts
       url: https://www.fasthosts.co.uk/
@@ -194,7 +203,7 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: https://wiki.gandi.net/en/contacts/login/2-factor-activation
+      doc: https://doc.gandi.net/en/organization/users/security
 
     - name: GoDaddy
       img: godaddy.png
@@ -440,6 +449,13 @@ websites:
       software: Yes
       doc: https://porkbun.com/products/two_factor_authentication
 
+    - name: Rebel.com
+      url: https://www.rebel.com/
+      twitter: rebeldotcom
+      facebook: rebeldomains
+      img: rebel.png
+      tfa: No
+
     - name: Register4Less
       url: https://register4less.com/
       img: register4less.png
@@ -490,6 +506,15 @@ websites:
       tfa: Yes
       software: Yes
       doc: https://www.ud-reselling.com/en/security/
+
+    - name: united-domains.de
+      url: https://www.united-domains.de/
+      img: united-domains.png
+      tfa: Yes
+      software: Yes
+      doc: https://help.united-domains.de/faq-article/wie-aktiviere-ich-die-zweistufige-verifizierung-und-mache-mein-portfolio-login-sicherer
+      exceptions:
+        text: "A phone number is required to enable two-factor authentication."
 
     - name: Verio
       url: https://www.verio.com/
